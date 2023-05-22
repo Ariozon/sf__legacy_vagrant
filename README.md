@@ -1,2 +1,2 @@
 # Project-10.5
- install Postgres (8.4) using Vagrant with Docker on GCP ubuntu 18.04 instance
+Postgresql 8.4 on vagrant with virtualbox on ubuntu with GCP
