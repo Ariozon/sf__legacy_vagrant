@@ -5,4 +5,4 @@ Vagrant.configure("2") do |config|
     docker.image = "postgres:8.4"
     docker.ports = ["5432:5432"]
   end
-end
+  
