@@ -1,0 +1,8 @@
+# Postgres (8.4) using Vagrant with Docker on GCP ubuntu 18.04 instance
+
+Vagrant.configure("2") do |config|
+  config.vm.provider :docker do |docker|
+    docker.image = "postgres:8.4"
+    docker.ports = ["5432:5432"]
+  end
+end
